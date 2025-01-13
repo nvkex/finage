@@ -34,6 +34,6 @@ expenseLogSchema.plugin(paginate);
 /**
  * @typedef ExpenseLog
  */
-const ExpenseLog = mongoose.model('ExpenseLog', userSchema);
+const ExpenseLog = mongoose.model('ExpenseLog', expenseLogSchema);
 
 module.exports = ExpenseLog;
